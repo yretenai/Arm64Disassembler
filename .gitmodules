@@ -1,0 +1,7 @@
+# SPDX-FileCopyrightText: 2025 chronovore/legiayayana
+#
+# SPDX-License-Identifier: Apache-2.0
+
+[submodule "binaryninja-api"]
+	path = binaryninja-api
+	url = https://github.com/Vector35/binaryninja-api.git

@@ -1,0 +1,10 @@
+<!--
+SPDX-FileCopyrightText: 2025 chronovore/legiayayana
+
+SPDX-License-Identifier: Apache-2.0
+-->
+
+<Solution>
+  <Project Path="Arm64Disassembler/Arm64Disassembler.csproj" />
+  <Project Path="DisasmTest/DisasmTest.csproj" />
+</Solution>

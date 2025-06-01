@@ -1,0 +1,13 @@
+LIBRARY binjaarch64
+EXPORTS
+	aarch64_decompose
+	get_register_size
+	aarch64_disassemble
+	get_register_full
+	get_register_arrspec
+	get_operation
+	get_shift
+	get_condition
+	get_implementation_specific
+	get_arrspec_str
+	get_arrspec_str_truncated
