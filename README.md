@@ -27,7 +27,7 @@ meson setup .. --buildtype=release
 meson compile
 ```
 
-The disassembler is set up to load next to the assembly directory and the assembly runtime, some common ones:
+The wrapper is set up to load the disassember library next to the assembly directory and the assembly runtime, some common ones:
 
 - runtime/linux-x64/native/libbinjaarm64.so
 - runtime/linux-arm64/native/libbinjaarm64.so
