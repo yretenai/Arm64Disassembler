@@ -334,3 +334,5 @@ ASALocalRun/
 
 nuget.config
 build
+Arm64Disassembler/runtimes/
+!Arm64Disassembler/runtimes/**/*.license

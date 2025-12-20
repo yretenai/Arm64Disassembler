@@ -9,7 +9,7 @@ namespace Arm64Disassembler.Native;
 [SuppressMessage("ReSharper", "InconsistentNaming")]
 [SuppressMessage("ReSharper", "IdentifierTypo")]
 public enum OperandClass : uint {
-	None = 0x0,
+	NONE = 0x0,
 	IMM32 = 0x1,
 	IMM64 = 0x2,
 	FIMM32 = 0x3,
@@ -28,5 +28,5 @@ public enum OperandClass : uint {
 	LABEL = 0x10,
 	CONDITION = 0x11,
 	NAME = 0x12,
-	ImplementationSpecific = 0x13,
+	IMPL_SPECIFIC = 0x13,
 }
